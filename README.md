@@ -88,7 +88,7 @@ _color: white
 + `PrantUML`
   * 各種フローチャートの作成
 + `Draw.io`
-  * SVGエディタ。作成したS
+  * SVGエディタ。作成したSVGを挿入できる。
   * VSCodeのPluginもあるため、VSCode上で完結できる
 + `Vega`
   * JSONからグラフをSVG出力できる。
