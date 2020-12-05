@@ -1,6 +1,7 @@
 ---
 marp: true
 ---
+
 # MarpでMarkdownからスライド作ってみる
 
 ---
@@ -25,6 +26,9 @@ marp: true
 * テキストベースなので環境を選ばない
 * テキストベースなのでバージョン管理もしやすい
 * ルールに沿うので変換しなくても文書構造が整理されていて可読性が高い
+* 色んなサービス、ツールで使える
+
+<img src="images/github-logo.svg" width="15%">　<img src="images/qiita.png" width="30%">　<img src="images/Mattermost.svg" width="40%">
 
 ---
 
@@ -33,6 +37,81 @@ marp: true
 
 * Markdownでスライド（PDFファイル）を作成できるツール
 * Markdownのルールに沿ってスライドをイイ感じに作ってくれる
-* このスライドもMarp + Markdownで作成している。
+* このスライドもMarp + Markdownで作成
+
+<div style="text-align: center;" >
+  <img src="images/markdown_to_marp.svg" width="80%">
+</div>
 
 ---
+
+# 使い方
+
+* `VSCode`にPluginがあるのでインストールするだけ
+* プレビューを見ながら編集できる
+
+<div style="text-align: center;" >
+  <img src="images/screen.png">
+</div>
+
+---
+<!--
+_color: white
+-->
+
+![bg](images/IMG_0804.jpeg)
+
+<div style="text-align: right">
+
+# 結構いろいろできる
+全面背景画像にしてみたり
+
+</div>
+
+--- 
+
+![bg left:40%](images/cat.jpeg)
+
+# 左に画像を入れてみたり
+
+---
+
+# テーマ
+* CSSでテーマのデザインを自由に変更もできる
+  + 使いまわしも可能
+  + テーマを紹介しているサイトもあるらしい
+* 今回のスライドは素のデザイン
+
+---
+
+# 外部ツールも組み合わせ可能
++ `PrantUML`
+  * 各種フローチャートの作成
++ `Draw.io`
+  * SVGエディタ。作成したS
+  * VSCodeのPluginもあるため、VSCode上で完結できる
++ `Vega`
+  * JSONからグラフをSVG出力できる。
+  * こちらもVSCodeのPluginがあり、活用可能。
+
+---
+
+# 作ってみた感想
+
+* 簡単なスライドならサクッと簡単に作れる
+  + レイアウト調整の手間が不要
+  + 文章と写真だけだったら`PowerPoint`や`Keynote`よりも楽かも
+* 凝ったレイアウトやテーマを実現するのは難しそう
+
+---
+
+# おしまい
+
+作成したMarkdownはこちら
+* https://github.com/h-ueno2/marp-sample 
+
+<div style="text-align:center">
+
+![](images/qr_cord.png)
+
+</div>
